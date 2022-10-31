@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
-    text-decoration: none;
 }
 
-body{
-
+a{
+    text-decoration: none;
 }
 
 textarea:focus, input:focus{
@@ -15,14 +14,14 @@ textarea:focus, input:focus{
 }
 
 .main{
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0 16px;
 }
 
 .title{
     text-align: center;
-    padding: 16px 0;
+    padding: 2.2em 0 0.5em 0;
 }
 
 .alert{
@@ -31,7 +30,7 @@ textarea:focus, input:focus{
 }
 
 .alert .info{
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -125,11 +124,12 @@ textarea:focus, input:focus{
     color: #fff;
     padding: 16px 16px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .slide img{
     width: 100%;
-    margin: 3em 0;
+    margin: 2.2em 0 0 0;
 }
 
 .categories{
@@ -183,6 +183,7 @@ textarea:focus, input:focus{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -194,7 +195,7 @@ textarea:focus, input:focus{
 }
 
 .best-sellers .item .shape-item{
-    margin: 16px 16px;
+    padding: 16px 16px;
 }
 
 .best-sellers .item .shape-item img{
@@ -227,4 +228,49 @@ textarea:focus, input:focus{
     font-size: 32px;
     color: #369e45;
     cursor: pointer;
+}
+
+.favorite-brands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow p{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 0 0 6px;
+}
+
+.follow p a{
+    color: #6c6;
+}
+
+.inside-view{
+    display: flex;
+    flex-direction: column;
+}
+
+.inside-view .ads{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+@media only screen and (max-width: 1500px) {
+    .best-sellers {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .best-sellers .item{
+       width: 60%;
+    }
 }
