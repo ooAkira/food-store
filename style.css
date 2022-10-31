@@ -17,6 +17,7 @@ textarea:focus, input:focus{
 .main{
     max-width: 1500px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .title{
@@ -34,7 +35,7 @@ textarea:focus, input:focus{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding: 11px 0;
+    padding: 11px 16px;
 }
 
 .alert .info a{
@@ -55,7 +56,7 @@ textarea:focus, input:focus{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 0;
+    padding: 17px 16px;
     width: 100%;
 }
 
@@ -127,18 +128,17 @@ textarea:focus, input:focus{
 }
 
 .slide img{
-    max-width: 1500px;
+    width: 100%;
     margin: 3em 0;
 }
 
 .categories{
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin: 16px;
+    margin: 16px 0;
 }
 
 .categories .card{
@@ -177,4 +177,53 @@ textarea:focus, input:focus{
     color: #000;
     margin: 0;
     padding: 15px;
+}
+
+.best-sellers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.best-sellers .item{
+    width: 31%;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.best-sellers .item .shape-item{
+    margin: 16px 16px;
+}
+
+.best-sellers .item .shape-item img{
+    width: 100%;
+    padding: 20px 15px 15px;
+}
+
+.best-sellers .item .shape-item h2{
+    color: #000;
+    height: 30px;
+    overflow: hidden;
+    line-height: initial;
+    font-size: 21px;
+    font-weight: 400;
+    height: 30px;
+    margin-bottom: 18px;
+}
+
+.best-sellers .item .shape-item .nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-sellers .item .shape-item .nav-item span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.best-sellers .item .shape-item .nav-item i{
+    font-size: 32px;
+    color: #369e45;
+    cursor: pointer;
 }
