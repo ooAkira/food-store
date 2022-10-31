@@ -190,6 +190,7 @@ textarea:focus, input:focus{
     width: 31%;
     background-color: #fff;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
 }
 
 .best-sellers .item .shape-item{
