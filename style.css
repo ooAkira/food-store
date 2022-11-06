@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
-}
-
-a{
     text-decoration: none;
 }
 
@@ -115,6 +112,7 @@ textarea:focus, input:focus{
     margin: 0 0 0 32px;
     cursor: pointer;
     font-size: 26px;
+
 }
 
 .fa-magnifying-glass{
